@@ -1,3 +1,6 @@
+#Exits script on first error
+$ErrorActionPreference = "Stop"
+
 $User = Read-Host 'Please input your username: '
 $PasswordFile = 'encrypted.test'
 $KeyFile = 'key.test'
